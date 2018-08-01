@@ -703,15 +703,22 @@ function _create_node(path)
 		local last = table.remove(path)
 		local parent = _create_node(path)
 
-		c = {nodes={}, auto=true}
-		-- the node is "in request" if the request path matches
-		-- at least up to the length of the node path
-		if parent.inreq and context.path[#path+1] == last then
-		  c.inreq = true
+		c = {nodes={}, auto=true, inreq=true}
+
+		local _, n
+		for _, n in ipairs(path) do
+			if context.path[_] ~= n then
+				c.inreq = false
+				break
+			end
 		end
+
+		c.inreq = c.inreq and (context.path[#path + 1] == last)
+
 		parent.nodes[last] = c
 		context.treecache[name] = c
 	end
+
 	return c
 end
 
@@ -886,8 +893,6 @@ local function _cbi(self, ...)
 	local pageaction = true
 	local parsechain = { }
 
-	local is_rollback, time_remaining = uci:rollback_pending()
-
 	for i, res in ipairs(maps) do
 		if res.apply_needed and res.parsechain then
 			local c
@@ -914,8 +919,6 @@ local function _cbi(self, ...)
 	for i, res in ipairs(maps) do
 		res:render({
 			firstmap   = (i == 1),
-			applymap   = applymap,
-			confirmmap = (is_rollback and time_remaining or nil),
 			redirect   = redirect,
 			messages   = messages,
 			pageaction = pageaction,
@@ -925,11 +928,12 @@ local function _cbi(self, ...)
 
 	if not config.nofooter then
 		tpl.render("cbi/footer", {
-			flow       = config,
-			pageaction = pageaction,
-			redirect   = redirect,
-			state      = state,
-			autoapply  = config.autoapply
+			flow          = config,
+			pageaction    = pageaction,
+			redirect      = redirect,
+			state         = state,
+			autoapply     = config.autoapply,
+			trigger_apply = applymap
 		})
 	end
 end

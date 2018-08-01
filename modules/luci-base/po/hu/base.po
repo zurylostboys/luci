@@ -47,6 +47,9 @@ msgstr ""
 msgid "-- match by uuid --"
 msgstr ""
 
+msgid "-- please select --"
+msgstr ""
+
 msgid "1 Minute Load:"
 msgstr "Terhelés (utolsó 1 perc):"
 
@@ -153,9 +156,6 @@ msgstr ""
 msgid "<abbr title=\"maximal\">Max.</abbr> concurrent queries"
 msgstr "<abbr title=\"maximal\">Max.</abbr> párhuzamos lekérdezés"
 
-msgid "<abbr title='Pairwise: %s / Group: %s'>%s - %s</abbr>"
-msgstr "<abbr title='Pairwise: %s / Group: %s'>%s - %s</abbr>"
-
 msgid ""
 "<br/>Note: you need to manually restart the cron service if the crontab file "
 "was empty before editing."
@@ -215,9 +215,6 @@ msgstr "Hozzáférési pont"
 msgid "Actions"
 msgstr "Műveletek"
 
-msgid "Activate this network"
-msgstr "Hálózat aktiválása"
-
 msgid "Active <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Routes"
 msgstr ""
 "Aktív <abbr title=\"Internet Protocol Version 4\">IPv4</abbr> útvonalak"
@@ -272,6 +269,15 @@ msgstr ""
 msgid "Alert"
 msgstr "Riasztás"
 
+msgid "Alias Interface"
+msgstr ""
+
+msgid "Alias of \"%s\""
+msgstr ""
+
+msgid "All Servers"
+msgstr ""
+
 msgid ""
 "Allocate IP addresses sequentially, starting from the lowest available "
 "address"
@@ -283,6 +289,9 @@ msgstr ""
 msgid "Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication"
 msgstr ""
 "<abbr title=\"Secure Shell\">SSH</abbr> jelszó hitelesítés engedélyezése"
+
+msgid "Allow AP mode to disconnect STAs based on low ACK condition"
+msgstr ""
 
 msgid "Allow all except listed"
 msgstr "Összes engedélyezése a felsoroltakon kívül"
@@ -317,6 +326,11 @@ msgid "Allowed IPs"
 msgstr ""
 
 msgid "Always announce default router"
+msgstr ""
+
+msgid ""
+"Always use 40MHz channels even if the secondary channel overlaps. Using this "
+"option does not comply with IEEE 802.11n-2009!"
 msgstr ""
 
 msgid "Annex"
@@ -495,11 +509,11 @@ msgstr "Vissza az áttekintéshez"
 msgid "Back to scan results"
 msgstr "Vissza a felderítési eredményekhez"
 
+msgid "Backup"
+msgstr "Mentés"
+
 msgid "Backup / Flash Firmware"
 msgstr "Mentés / Firmware frissítés"
-
-msgid "Backup / Restore"
-msgstr "Mentés / Visszaállítás"
 
 msgid "Backup file list"
 msgstr "Mentési fájl lista"
@@ -508,6 +522,9 @@ msgid "Bad address specified!"
 msgstr "Hibás címet adott meg!"
 
 msgid "Band"
+msgstr ""
+
+msgid "Beacon Interval"
 msgstr ""
 
 msgid ""
@@ -566,6 +583,9 @@ msgstr ""
 
 msgid "CPU usage (%)"
 msgstr "Processzor használat (%)"
+
+msgid "Call failed"
+msgstr ""
 
 msgid "Cancel"
 msgstr "Mégsem"
@@ -636,13 +656,10 @@ msgstr ""
 
 msgid ""
 "Click \"Generate archive\" to download a tar archive of the current "
-"configuration files. To reset the firmware to its initial state, click "
-"\"Perform reset\" (only possible with squashfs images)."
+"configuration files."
 msgstr ""
 "Kattintson az \"Archívum készítése\" gombra a jelenlegi konfiguráció tar "
-"archívumként történő letöltéséhez. A firmware kezdeti állapotának "
-"visszaállításához kattintson a \"Visszaállítás végrehajtása\" gombra (csak "
-"squashfs image-ek esetén lehetséges)."
+"archívumként történő letöltéséhez."
 
 msgid "Client"
 msgstr "Ügyfél"
@@ -679,6 +696,9 @@ msgstr ""
 msgid "Configuration"
 msgstr "Beállítás"
 
+msgid "Configuration failed"
+msgstr ""
+
 msgid "Configuration files will be kept."
 msgstr "A konfigurációs fájlok megmaradnak."
 
@@ -699,6 +719,9 @@ msgstr "Kapcsolódva"
 
 msgid "Connection Limit"
 msgstr "Kapcsolati korlát"
+
+msgid "Connection attempt failed"
+msgstr ""
 
 msgid "Connections"
 msgstr "Kapcsolatok"
@@ -762,9 +785,6 @@ msgstr ""
 "Az eszköz <abbr title=\"Light Emitting Diode\">LED</abbr>-jei működésének "
 "testreszabása."
 
-msgid "DHCP Leases"
-msgstr "DHCP bérletek"
-
 msgid "DHCP Server"
 msgstr "DHCP kiszolgáló"
 
@@ -776,9 +796,6 @@ msgstr "DHCP ügyfél"
 
 msgid "DHCP-Options"
 msgstr "DHCP beállítások"
-
-msgid "DHCPv6 Leases"
-msgstr "DHCPv6 bérletek"
 
 msgid "DHCPv6 client"
 msgstr ""
@@ -819,6 +836,9 @@ msgstr ""
 msgid "DSL line mode"
 msgstr ""
 
+msgid "DTIM Interval"
+msgstr ""
+
 msgid "DUID"
 msgstr "DUID"
 
@@ -857,6 +877,9 @@ msgstr "Törlés"
 msgid "Delete this network"
 msgstr "Hálózat törlése"
 
+msgid "Delivery Traffic Indication Message Interval"
+msgstr ""
+
 msgid "Description"
 msgstr "Leírás"
 
@@ -875,10 +898,10 @@ msgstr "Eszköz beállítások"
 msgid "Device is rebooting..."
 msgstr ""
 
-msgid "Device unreachable"
+msgid "Device unreachable!"
 msgstr ""
 
-msgid "Device unreachable!"
+msgid "Device unreachable! Still waiting for device..."
 msgstr ""
 
 msgid "Diagnostics"
@@ -906,14 +929,23 @@ msgstr "DNS beállítás letiltása"
 msgid "Disable Encryption"
 msgstr ""
 
+msgid "Disable this network"
+msgstr ""
+
 msgid "Disabled"
 msgstr "Letiltva"
 
 msgid "Disabled (default)"
 msgstr ""
 
+msgid "Disassociate On Low Acknowledgement"
+msgstr ""
+
 msgid "Discard upstream RFC1918 responses"
 msgstr "Beérkező RFC1918 DHCP válaszok elvetése. "
+
+msgid "Disconnection attempt failed"
+msgstr ""
 
 msgid "Dismiss"
 msgstr ""
@@ -970,6 +1002,9 @@ msgid ""
 msgstr ""
 "Ne továbbítsa a <abbr title=\"Domain Name System\">DNS</abbr>-név nélküli "
 "<abbr title=\"Domain Name System\">DNS</abbr>-kéréseket "
+
+msgid "Down"
+msgstr ""
 
 msgid "Download and install package"
 msgstr "Csomag letöltése és telepítése"
@@ -1088,6 +1123,9 @@ msgstr ""
 msgid "Enable this mount"
 msgstr "A csatolás engedélyezése"
 
+msgid "Enable this network"
+msgstr ""
+
 msgid "Enable this swap"
 msgstr "A lapozó terület engedélyezése"
 
@@ -1118,6 +1156,12 @@ msgid "Endpoint Host"
 msgstr ""
 
 msgid "Endpoint Port"
+msgstr ""
+
+msgid "Enter custom value"
+msgstr ""
+
+msgid "Enter custom values"
 msgstr ""
 
 msgid "Erasing..."
@@ -1200,6 +1244,9 @@ msgstr "Privát kérések szűrése"
 msgid "Filter useless"
 msgstr "Használhahatlan kérések szűrése"
 
+msgid "Finalizing failed"
+msgstr ""
+
 msgid ""
 "Find all currently attached filesystems and swap and replace configuration "
 "with defaults based on what was detected"
@@ -1253,6 +1300,9 @@ msgstr "Flash-elés..."
 msgid "Force"
 msgstr "Kényszerítés"
 
+msgid "Force 40MHz mode"
+msgstr ""
+
 msgid "Force CCMP (AES)"
 msgstr "CCMP (AES) kényszerítése"
 
@@ -1305,7 +1355,7 @@ msgstr "Szabad hely"
 
 msgid ""
 "Further information about WireGuard interfaces and peers at <a href=\"http://"
-"wireguard.io\">wireguard.io</a>."
+"wireguard.com\">wireguard.com</a>."
 msgstr ""
 
 msgid "GHz"
@@ -1316,6 +1366,9 @@ msgstr "Csak GPRS"
 
 msgid "Gateway"
 msgstr "Átjáró"
+
+msgid "Gateway address is invalid"
+msgstr ""
 
 msgid "Gateway ports"
 msgstr "Átjáró portok"
@@ -1391,9 +1444,6 @@ msgstr ""
 "Nyilvános kulcs alapú SSH azonosításhoz itt adhat meg nyilvános SSH "
 "kulcsokat (soronként egyet)."
 
-msgid "Hermes 802.11b Wireless Controller"
-msgstr "Hermes 802.11b vezeték nélküli vezérlő"
-
 msgid "Hide <abbr title=\"Extended Service Set Identifier\">ESSID</abbr>"
 msgstr "<abbr title=\"Extended Service Set Identifier\">ESSID</abbr> elrejtése"
 
@@ -1408,6 +1458,9 @@ msgstr "Host lejárati idő"
 
 msgid "Host-<abbr title=\"Internet Protocol Address\">IP</abbr> or Network"
 msgstr "Host-<abbr title=\"Internet Protocol Address\">IP</abbr> vagy hálózat"
+
+msgid "Host-Uniq tag content"
+msgstr ""
 
 msgid "Hostname"
 msgstr "Gépnév"
@@ -1429,6 +1482,12 @@ msgstr ""
 
 msgid "IP address"
 msgstr "IP cím"
+
+msgid "IP address in invalid"
+msgstr ""
+
+msgid "IP address is missing"
+msgstr ""
 
 msgid "IPv4"
 msgstr "IPv4"
@@ -1602,6 +1661,9 @@ msgstr "Bejövő"
 msgid "Info"
 msgstr "Információk"
 
+msgid "Initialization failure"
+msgstr ""
+
 msgid "Initscript"
 msgstr "Indítási állomány"
 
@@ -1638,20 +1700,11 @@ msgstr "Interfész áttekintés"
 msgid "Interface is reconnecting..."
 msgstr "Interfész újracsatlakoztatása..."
 
-msgid "Interface is shutting down..."
-msgstr "Interfész leállítása..."
-
 msgid "Interface name"
 msgstr ""
 
 msgid "Interface not present or not connected yet."
 msgstr "Az interfész nincs jelen, vagy még nincs csatlakoztatva."
-
-msgid "Interface reconnected"
-msgstr "Interfész újracsatlakoztatva"
-
-msgid "Interface shut down"
-msgstr "Interfész leállítás"
 
 msgid "Interfaces"
 msgstr "Interfészek"
@@ -1848,6 +1901,9 @@ msgstr "Átlagos terhelés"
 msgid "Loading"
 msgstr "Betöltés"
 
+msgid "Local IP address is invalid"
+msgstr ""
+
 msgid "Local IP address to assign"
 msgstr ""
 
@@ -1920,6 +1976,9 @@ msgstr ""
 msgid "Lowest leased address as offset from the network address."
 msgstr "A legalacsonyabb bérleti címnek az interfész címétől való távolsága"
 
+msgid "MAC"
+msgstr ""
+
 msgid "MAC-Address"
 msgstr "MAC-cím"
 
@@ -1933,6 +1992,9 @@ msgid "MAC-List"
 msgstr "MAC-lista"
 
 msgid "MAP / LW4over6"
+msgstr ""
+
+msgid "MAP rule is invalid"
 msgstr ""
 
 msgid "MB/s"
@@ -2013,6 +2075,9 @@ msgstr ""
 
 msgid "Modem device"
 msgstr "Modemeszköz"
+
+msgid "Modem information query failed"
+msgstr ""
 
 msgid "Modem init timeout"
 msgstr "Modem inicializálás időtúllépés"
@@ -2111,6 +2176,9 @@ msgstr "Hálózati eszközök"
 msgid "Network boot image"
 msgstr "Hálózati rendszertöltő lemezkép"
 
+msgid "Network device is not present"
+msgstr ""
+
 msgid "Network without interfaces."
 msgstr "Interfészhez nem rendelt hálózat"
 
@@ -2132,6 +2200,9 @@ msgstr "Nem találhatók fájlok"
 msgid "No information available"
 msgstr "Nincs elérhető információ"
 
+msgid "No matching prefix delegation"
+msgstr ""
+
 msgid "No negative cache"
 msgstr "Nincs negatív gyorsítótár"
 
@@ -2149,6 +2220,9 @@ msgstr "Nincs jelszó!"
 
 msgid "No rules in this chain"
 msgstr "Ez a lánc nem tartalmaz szabályokat"
+
+msgid "No scan results available yet..."
+msgstr ""
 
 msgid "No zone assigned"
 msgstr "Nincs hozzárendelt zóna"
@@ -2283,6 +2357,9 @@ msgstr ""
 msgid "Optional. Create routes for Allowed IPs for this peer."
 msgstr ""
 
+msgid "Optional. Description of peer."
+msgstr ""
+
 msgid ""
 "Optional. Host of peer. Names are resolved prior to bringing up the "
 "interface."
@@ -2362,6 +2439,9 @@ msgstr "PID"
 
 msgid "PIN"
 msgstr "PIN"
+
+msgid "PIN code rejected"
+msgstr ""
 
 msgid "PMK R1 Push"
 msgstr ""
@@ -2450,6 +2530,9 @@ msgstr "Csúcs:"
 msgid "Peer IP address to assign"
 msgstr ""
 
+msgid "Peer address is missing"
+msgstr ""
+
 msgid "Peers"
 msgstr ""
 
@@ -2520,9 +2603,6 @@ msgstr ""
 msgid "Prevents client-to-client communication"
 msgstr "Ügyfél-ügyfél közötti kommunikáció megakadályozása"
 
-msgid "Prism2/2.5/3 802.11b Wireless Controller"
-msgstr "Prism2/2.5/3 802.11b vezeték nélküli vezérlő"
-
 msgid "Private Key"
 msgstr ""
 
@@ -2571,6 +2651,11 @@ msgstr ""
 msgid "Quality"
 msgstr "Minőség"
 
+msgid ""
+"Query all available upstream <abbr title=\"Domain Name System\">DNS</abbr> "
+"servers"
+msgstr ""
+
 msgid "R0 Key Lifetime"
 msgstr ""
 
@@ -2588,9 +2673,6 @@ msgstr "RX"
 
 msgid "RX Rate"
 msgstr "RX sebesség"
-
-msgid "RaLink 802.11%s Wireless Controller"
-msgstr "RaLink 802.11%s vezeték nélküli vezérlő"
 
 msgid "Radius-Accounting-Port"
 msgstr "Radius-Naplózási-Port"
@@ -2610,6 +2692,9 @@ msgstr "Radius-Hitelesítés-Kulcs"
 msgid "Radius-Authentication-Server"
 msgstr "Radius-Hitelesítés-Kiszolgáló"
 
+msgid "Raw hex-encoded bytes. Leave empty unless your ISP require this"
+msgstr ""
+
 msgid ""
 "Read <code>/etc/ethers</code> to configure the <abbr title=\"Dynamic Host "
 "Configuration Protocol\">DHCP</abbr>-Server"
@@ -2618,15 +2703,12 @@ msgstr ""
 "Configuration Protocol\">DHCP</abbr> kiszolgáló beállításához"
 
 msgid ""
-"Really delete this interface? The deletion cannot be undone!\\nYou might "
-"lose access to this device if you are connected via this interface."
+"Really delete this interface? The deletion cannot be undone! You might lose "
+"access to this device if you are connected via this interface"
 msgstr ""
-"Biztosan törli az interfészt? A törlés nem visszavonható!\n"
-" Lehet, hogy elveszti a hozzáférést az eszközhöz, amennyiben ezen az "
-"interfészen keresztül kapcsolódik."
 
 msgid ""
-"Really delete this wireless network? The deletion cannot be undone!\\nYou "
+"Really delete this wireless network? The deletion cannot be undone! You "
 "might lose access to this device if you are connected via this network."
 msgstr ""
 "Biztosan törli ezt a vezetéknélküli hálózatot? A törlés nem visszavonható!\n"
@@ -2635,23 +2717,6 @@ msgstr ""
 
 msgid "Really reset all changes?"
 msgstr "Biztos, hogy visszavonja az összes módosítást?"
-
-#, fuzzy
-msgid ""
-"Really shut down network?\\nYou might lose access to this device if you are "
-"connected via this interface."
-msgstr ""
-"Biztos, hogy leállítja a hálózatot?!\n"
-" Lehet, hogy elveszti a hozzáférést az eszközhöz, amennyiben ezen a "
-"hálózaton keresztül kapcsolódik."
-
-msgid ""
-"Really shutdown interface \"%s\" ?\\nYou might lose access to this device if "
-"you are connected via this interface."
-msgstr ""
-"Biztos, hogy leállítja a \"%s\" interfészt?\n"
-" Lehet, hogy elveszti a hozzáférést az eszközhöz, amennyiben ezen az "
-"interfészen keresztül kapcsolódik."
 
 msgid "Really switch protocol?"
 msgstr "Biztos, hogy cserélni szeretné a protokollt?"
@@ -2697,9 +2762,6 @@ msgstr ""
 
 msgid "Reconnect this interface"
 msgstr "Csatlakoztassa újra az interfészt"
-
-msgid "Reconnecting interface"
-msgstr "Interfész újracsatlakoztatása"
 
 msgid "References"
 msgstr "Hivatkozások"
@@ -2790,6 +2852,12 @@ msgstr "Újraindítás"
 msgid "Restart Firewall"
 msgstr "Tűzfal újraindítása"
 
+msgid "Restart radio interface"
+msgstr ""
+
+msgid "Restore"
+msgstr "Visszaállítás"
+
 msgid "Restore backup"
 msgstr "Biztonsági mentés visszaállítása"
 
@@ -2878,6 +2946,9 @@ msgstr "Mentés & Alkalmazás"
 msgid "Scan"
 msgstr "Felderítés"
 
+msgid "Scan request failed"
+msgstr ""
+
 msgid "Scheduled Tasks"
 msgstr "Ütemezett feladatok"
 
@@ -2921,6 +2992,12 @@ msgstr ""
 msgid "Set up Time Synchronization"
 msgstr "Idő szinkronizálás beállítása"
 
+msgid "Setting PLMN failed"
+msgstr ""
+
+msgid "Setting operation mode failed"
+msgstr ""
+
 msgid "Setup DHCP Server"
 msgstr "DHCP kiszolgáló beállítása"
 
@@ -2930,14 +3007,14 @@ msgstr ""
 msgid "Short GI"
 msgstr ""
 
+msgid "Short Preamble"
+msgstr ""
+
 msgid "Show current backup file list"
 msgstr "Mentendő fájlok aktuális listájának megjelenítése"
 
 msgid "Shutdown this interface"
 msgstr "Interfész leállítása"
-
-msgid "Shutdown this network"
-msgstr "Hálózat leállítása"
 
 msgid "Signal"
 msgstr "Jel"
@@ -2993,9 +3070,6 @@ msgstr ""
 "telepítését manuálisan kell elvégezni. Az eszközhöz tartozó telepítési "
 "utasításokért keresse fel az wiki-t."
 
-msgid "Sort"
-msgstr "Sorbarendezés"
-
 msgid "Source"
 msgstr "Forrás"
 
@@ -3041,6 +3115,9 @@ msgid "Start priority"
 msgstr "Indítás prioritása"
 
 msgid "Starting configuration apply…"
+msgstr ""
+
+msgid "Starting wireless scan..."
 msgstr ""
 
 msgid "Startup"
@@ -3203,6 +3280,9 @@ msgid ""
 msgstr ""
 "A következő karakterek használhatók: <code>A-Z</code>, <code>a-z</code>, "
 "<code>0-9</code> and <code>_</code>"
+
+msgid "The backup archive does not appear to be a valid gzip file."
+msgstr ""
 
 msgid "The configuration file could not be loaded due to the following error:"
 msgstr ""
@@ -3430,10 +3510,13 @@ msgstr "Időzóna"
 
 msgid ""
 "To restore configuration files, you can upload a previously generated backup "
-"archive here."
+"archive here. To reset the firmware to its initial state, click \"Perform "
+"reset\" (only possible with squashfs images)."
 msgstr ""
 "Itt tölthet fel egy korábban létrehozott biztonsági mentés archívumot a "
-"konfigurációs fájlok visszaállításához."
+"konfigurációs fájlok visszaállításához. A firmware kezdeti állapotának "
+"visszaállításához kattintson a \"Visszaállítás végrehajtása\" gombra (csak "
+"squashfs image-ek esetén lehetséges)."
 
 msgid "Tone"
 msgstr ""
@@ -3501,8 +3584,26 @@ msgstr ""
 msgid "UUID"
 msgstr "UUID"
 
+msgid "Unable to determine device name"
+msgstr ""
+
+msgid "Unable to determine external IP address"
+msgstr ""
+
+msgid "Unable to determine upstream interface"
+msgstr ""
+
 msgid "Unable to dispatch"
 msgstr "Nem indiítható"
+
+msgid "Unable to obtain client ID"
+msgstr ""
+
+msgid "Unable to resolve AFTR host name"
+msgstr ""
+
+msgid "Unable to resolve peer host name"
+msgstr ""
 
 msgid "Unavailable Seconds (UAS)"
 msgstr ""
@@ -3513,6 +3614,9 @@ msgstr "Ismeretlen"
 msgid "Unknown Error, password not changed!"
 msgstr "Ismeretlen hiba, a jelszó nem lett megváltoztatva!"
 
+msgid "Unknown error (%s)"
+msgstr ""
+
 msgid "Unmanaged"
 msgstr "Nem kezelt"
 
@@ -3522,8 +3626,17 @@ msgstr ""
 msgid "Unsaved Changes"
 msgstr "El nem mentett módosítások"
 
+msgid "Unsupported MAP type"
+msgstr ""
+
+msgid "Unsupported modem"
+msgstr ""
+
 msgid "Unsupported protocol type."
 msgstr "Nem támogatott protokoll típus."
+
+msgid "Up"
+msgstr ""
 
 msgid "Update lists"
 msgstr "Listák frissítése"
@@ -3662,6 +3775,9 @@ msgstr "Ellenőrzés"
 msgid "Version"
 msgstr "Verzió"
 
+msgid "Virtual dynamic interface"
+msgstr ""
+
 msgid "WDS"
 msgstr "WDS"
 
@@ -3731,8 +3847,11 @@ msgstr "Vezetéknélküli rész áttekintés"
 msgid "Wireless Security"
 msgstr "Vezetéknélküli biztonság"
 
-msgid "Wireless is disabled or not associated"
-msgstr "Vezetéknélküli hálózat le van tiltva vagy nincs kapcsolódva"
+msgid "Wireless is disabled"
+msgstr "Vezetéknélküli hálózat le van tiltva"
+
+msgid "Wireless is not associated"
+msgstr "Vezetéknélküli hálózat nincs kapcsolódva"
 
 msgid "Wireless is restarting..."
 msgstr "Vezetéknélküli rész újraindítása folyamatban..."
@@ -3742,12 +3861,6 @@ msgstr "Vezetéknélküli hálózat letiltva"
 
 msgid "Wireless network is enabled"
 msgstr "Vezetéknélküli hálózat engedélyezve"
-
-msgid "Wireless restarted"
-msgstr "Vezetéknélküli rész újraindítva"
-
-msgid "Wireless shut down"
-msgstr "Vezetéknélküli rész leállítása"
 
 msgid "Write received DNS requests to syslog"
 msgstr "A kapott DNS kéréseket írja a rendszernaplóba"
@@ -3789,6 +3902,9 @@ msgstr "baseT"
 msgid "bridged"
 msgstr "áthidalt"
 
+msgid "create"
+msgstr ""
+
 msgid "create:"
 msgstr "új:"
 
@@ -3826,9 +3942,6 @@ msgstr "full-duplex"
 msgid "half-duplex"
 msgstr "half-duplex"
 
-msgid "help"
-msgstr "súgó"
-
 msgid "hidden"
 msgstr "rejtett"
 
@@ -3856,6 +3969,9 @@ msgstr "helyi <abbr title=\"Domain Name System\">DNS</abbr> fájl"
 msgid "minutes"
 msgstr ""
 
+msgid "mixed WPA/WPA2"
+msgstr ""
+
 msgid "no"
 msgstr "nem"
 
@@ -3876,6 +3992,9 @@ msgstr "be"
 
 msgid "open"
 msgstr "nyitás"
+
+msgid "output"
+msgstr ""
 
 msgid "overlay"
 msgstr ""
@@ -3927,6 +4046,79 @@ msgstr "igen"
 
 msgid "« Back"
 msgstr "« Vissza"
+
+#~ msgid "<abbr title='Pairwise: %s / Group: %s'>%s - %s</abbr>"
+#~ msgstr "<abbr title='Pairwise: %s / Group: %s'>%s - %s</abbr>"
+
+#~ msgid "Activate this network"
+#~ msgstr "Hálózat aktiválása"
+
+#~ msgid "Hermes 802.11b Wireless Controller"
+#~ msgstr "Hermes 802.11b vezeték nélküli vezérlő"
+
+#~ msgid "Interface is shutting down..."
+#~ msgstr "Interfész leállítása..."
+
+#~ msgid "Interface reconnected"
+#~ msgstr "Interfész újracsatlakoztatva"
+
+#~ msgid "Interface shut down"
+#~ msgstr "Interfész leállítás"
+
+#~ msgid "Prism2/2.5/3 802.11b Wireless Controller"
+#~ msgstr "Prism2/2.5/3 802.11b vezeték nélküli vezérlő"
+
+#~ msgid "RaLink 802.11%s Wireless Controller"
+#~ msgstr "RaLink 802.11%s vezeték nélküli vezérlő"
+
+#~ msgid ""
+#~ "Really shutdown interface \"%s\"? You might lose access to this device if "
+#~ "you are connected via this interface."
+#~ msgstr ""
+#~ "Biztos, hogy leállítja a \"%s\" interfészt?\n"
+#~ " Lehet, hogy elveszti a hozzáférést az eszközhöz, amennyiben ezen az "
+#~ "interfészen keresztül kapcsolódik."
+
+#~ msgid "Reconnecting interface"
+#~ msgstr "Interfész újracsatlakoztatása"
+
+#~ msgid "Shutdown this network"
+#~ msgstr "Hálózat leállítása"
+
+#~ msgid "Wireless restarted"
+#~ msgstr "Vezetéknélküli rész újraindítva"
+
+#~ msgid "Wireless shut down"
+#~ msgstr "Vezetéknélküli rész leállítása"
+
+#~ msgid "DHCP Leases"
+#~ msgstr "DHCP bérletek"
+
+#~ msgid "DHCPv6 Leases"
+#~ msgstr "DHCPv6 bérletek"
+
+#~ msgid ""
+#~ "Really delete this interface? The deletion cannot be undone! You might "
+#~ "lose access to this device if you are connected via this interface."
+#~ msgstr ""
+#~ "Biztosan törli az interfészt? A törlés nem visszavonható!\n"
+#~ " Lehet, hogy elveszti a hozzáférést az eszközhöz, amennyiben ezen az "
+#~ "interfészen keresztül kapcsolódik."
+
+#, fuzzy
+#~ msgid ""
+#~ "Really shut down network? You might lose access to this device if you are "
+#~ "connected via this interface."
+#~ msgstr ""
+#~ "Biztos, hogy leállítja a hálózatot?!\n"
+#~ " Lehet, hogy elveszti a hozzáférést az eszközhöz, amennyiben ezen a "
+#~ "hálózaton keresztül kapcsolódik."
+
+#~ msgid "Sort"
+#~ msgstr "Sorbarendezés"
+
+#~ msgid "help"
+#~ msgstr "súgó"
 
 #~ msgid "IPv4 WAN Status"
 #~ msgstr "IPv4 WAN állapot"

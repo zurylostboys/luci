@@ -44,6 +44,9 @@ msgstr ""
 msgid "-- match by uuid --"
 msgstr ""
 
+msgid "-- please select --"
+msgstr ""
+
 msgid "1 Minute Load:"
 msgstr ""
 
@@ -142,9 +145,6 @@ msgstr ""
 msgid "<abbr title=\"maximal\">Max.</abbr> concurrent queries"
 msgstr ""
 
-msgid "<abbr title='Pairwise: %s / Group: %s'>%s - %s</abbr>"
-msgstr ""
-
 msgid ""
 "<br/>Note: you need to manually restart the cron service if the crontab file "
 "was empty before editing."
@@ -201,9 +201,6 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-msgid "Activate this network"
-msgstr ""
-
 msgid "Active <abbr title=\"Internet Protocol Version 4\">IPv4</abbr>-Routes"
 msgstr ""
 
@@ -255,6 +252,15 @@ msgstr ""
 msgid "Alert"
 msgstr ""
 
+msgid "Alias Interface"
+msgstr ""
+
+msgid "Alias of \"%s\""
+msgstr ""
+
+msgid "All Servers"
+msgstr ""
+
 msgid ""
 "Allocate IP addresses sequentially, starting from the lowest available "
 "address"
@@ -264,6 +270,9 @@ msgid "Allocate IP sequentially"
 msgstr ""
 
 msgid "Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication"
+msgstr ""
+
+msgid "Allow AP mode to disconnect STAs based on low ACK condition"
 msgstr ""
 
 msgid "Allow all except listed"
@@ -295,6 +304,11 @@ msgid "Allowed IPs"
 msgstr ""
 
 msgid "Always announce default router"
+msgstr ""
+
+msgid ""
+"Always use 40MHz channels even if the secondary channel overlaps. Using this "
+"option does not comply with IEEE 802.11n-2009!"
 msgstr ""
 
 msgid "Annex"
@@ -473,10 +487,10 @@ msgstr ""
 msgid "Back to scan results"
 msgstr ""
 
-msgid "Backup / Flash Firmware"
+msgid "Backup"
 msgstr ""
 
-msgid "Backup / Restore"
+msgid "Backup / Flash Firmware"
 msgstr ""
 
 msgid "Backup file list"
@@ -486,6 +500,9 @@ msgid "Bad address specified!"
 msgstr ""
 
 msgid "Band"
+msgstr ""
+
+msgid "Beacon Interval"
 msgstr ""
 
 msgid ""
@@ -539,6 +556,9 @@ msgid "CA certificate; if empty it will be saved after the first connection."
 msgstr ""
 
 msgid "CPU usage (%)"
+msgstr ""
+
+msgid "Call failed"
 msgstr ""
 
 msgid "Cancel"
@@ -602,8 +622,7 @@ msgstr ""
 
 msgid ""
 "Click \"Generate archive\" to download a tar archive of the current "
-"configuration files. To reset the firmware to its initial state, click "
-"\"Perform reset\" (only possible with squashfs images)."
+"configuration files."
 msgstr ""
 
 msgid "Client"
@@ -639,6 +658,9 @@ msgstr ""
 msgid "Configuration"
 msgstr ""
 
+msgid "Configuration failed"
+msgstr ""
+
 msgid "Configuration files will be kept."
 msgstr ""
 
@@ -658,6 +680,9 @@ msgid "Connected"
 msgstr ""
 
 msgid "Connection Limit"
+msgstr ""
+
+msgid "Connection attempt failed"
 msgstr ""
 
 msgid "Connections"
@@ -720,9 +745,6 @@ msgid ""
 "\">LED</abbr>s if possible."
 msgstr ""
 
-msgid "DHCP Leases"
-msgstr ""
-
 msgid "DHCP Server"
 msgstr ""
 
@@ -733,9 +755,6 @@ msgid "DHCP client"
 msgstr ""
 
 msgid "DHCP-Options"
-msgstr ""
-
-msgid "DHCPv6 Leases"
 msgstr ""
 
 msgid "DHCPv6 client"
@@ -777,6 +796,9 @@ msgstr ""
 msgid "DSL line mode"
 msgstr ""
 
+msgid "DTIM Interval"
+msgstr ""
+
 msgid "DUID"
 msgstr ""
 
@@ -813,6 +835,9 @@ msgstr ""
 msgid "Delete this network"
 msgstr ""
 
+msgid "Delivery Traffic Indication Message Interval"
+msgstr ""
+
 msgid "Description"
 msgstr ""
 
@@ -831,10 +856,10 @@ msgstr ""
 msgid "Device is rebooting..."
 msgstr ""
 
-msgid "Device unreachable"
+msgid "Device unreachable!"
 msgstr ""
 
-msgid "Device unreachable!"
+msgid "Device unreachable! Still waiting for device..."
 msgstr ""
 
 msgid "Diagnostics"
@@ -860,13 +885,22 @@ msgstr ""
 msgid "Disable Encryption"
 msgstr ""
 
+msgid "Disable this network"
+msgstr ""
+
 msgid "Disabled"
 msgstr ""
 
 msgid "Disabled (default)"
 msgstr ""
 
+msgid "Disassociate On Low Acknowledgement"
+msgstr ""
+
 msgid "Discard upstream RFC1918 responses"
+msgstr ""
+
+msgid "Disconnection attempt failed"
 msgstr ""
 
 msgid "Dismiss"
@@ -915,6 +949,9 @@ msgstr ""
 msgid ""
 "Don't forward <abbr title=\"Domain Name System\">DNS</abbr>-Requests without "
 "<abbr title=\"Domain Name System\">DNS</abbr>-Name"
+msgstr ""
+
+msgid "Down"
 msgstr ""
 
 msgid "Download and install package"
@@ -1027,6 +1064,9 @@ msgstr ""
 msgid "Enable this mount"
 msgstr ""
 
+msgid "Enable this network"
+msgstr ""
+
 msgid "Enable this swap"
 msgstr ""
 
@@ -1057,6 +1097,12 @@ msgid "Endpoint Host"
 msgstr ""
 
 msgid "Endpoint Port"
+msgstr ""
+
+msgid "Enter custom value"
+msgstr ""
+
+msgid "Enter custom values"
 msgstr ""
 
 msgid "Erasing..."
@@ -1138,6 +1184,9 @@ msgstr ""
 msgid "Filter useless"
 msgstr ""
 
+msgid "Finalizing failed"
+msgstr ""
+
 msgid ""
 "Find all currently attached filesystems and swap and replace configuration "
 "with defaults based on what was detected"
@@ -1191,6 +1240,9 @@ msgstr ""
 msgid "Force"
 msgstr ""
 
+msgid "Force 40MHz mode"
+msgstr ""
+
 msgid "Force CCMP (AES)"
 msgstr ""
 
@@ -1241,7 +1293,7 @@ msgstr ""
 
 msgid ""
 "Further information about WireGuard interfaces and peers at <a href=\"http://"
-"wireguard.io\">wireguard.io</a>."
+"wireguard.com\">wireguard.com</a>."
 msgstr ""
 
 msgid "GHz"
@@ -1251,6 +1303,9 @@ msgid "GPRS only"
 msgstr ""
 
 msgid "Gateway"
+msgstr ""
+
+msgid "Gateway address is invalid"
 msgstr ""
 
 msgid "Gateway ports"
@@ -1323,9 +1378,6 @@ msgid ""
 "authentication."
 msgstr ""
 
-msgid "Hermes 802.11b Wireless Controller"
-msgstr ""
-
 msgid "Hide <abbr title=\"Extended Service Set Identifier\">ESSID</abbr>"
 msgstr ""
 
@@ -1339,6 +1391,9 @@ msgid "Host expiry timeout"
 msgstr ""
 
 msgid "Host-<abbr title=\"Internet Protocol Address\">IP</abbr> or Network"
+msgstr ""
+
+msgid "Host-Uniq tag content"
 msgstr ""
 
 msgid "Hostname"
@@ -1360,6 +1415,12 @@ msgid "IP Addresses"
 msgstr ""
 
 msgid "IP address"
+msgstr ""
+
+msgid "IP address in invalid"
+msgstr ""
+
+msgid "IP address is missing"
 msgstr ""
 
 msgid "IPv4"
@@ -1525,6 +1586,9 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
+msgid "Initialization failure"
+msgstr ""
+
 msgid "Initscript"
 msgstr ""
 
@@ -1561,19 +1625,10 @@ msgstr ""
 msgid "Interface is reconnecting..."
 msgstr ""
 
-msgid "Interface is shutting down..."
-msgstr ""
-
 msgid "Interface name"
 msgstr ""
 
 msgid "Interface not present or not connected yet."
-msgstr ""
-
-msgid "Interface reconnected"
-msgstr ""
-
-msgid "Interface shut down"
 msgstr ""
 
 msgid "Interfaces"
@@ -1761,6 +1816,9 @@ msgstr ""
 msgid "Loading"
 msgstr ""
 
+msgid "Local IP address is invalid"
+msgstr ""
+
 msgid "Local IP address to assign"
 msgstr ""
 
@@ -1825,6 +1883,9 @@ msgstr ""
 msgid "Lowest leased address as offset from the network address."
 msgstr ""
 
+msgid "MAC"
+msgstr ""
+
 msgid "MAC-Address"
 msgstr ""
 
@@ -1838,6 +1899,9 @@ msgid "MAC-List"
 msgstr ""
 
 msgid "MAP / LW4over6"
+msgstr ""
+
+msgid "MAP rule is invalid"
 msgstr ""
 
 msgid "MB/s"
@@ -1917,6 +1981,9 @@ msgid "Model"
 msgstr ""
 
 msgid "Modem device"
+msgstr ""
+
+msgid "Modem information query failed"
 msgstr ""
 
 msgid "Modem init timeout"
@@ -2014,6 +2081,9 @@ msgstr ""
 msgid "Network boot image"
 msgstr ""
 
+msgid "Network device is not present"
+msgstr ""
+
 msgid "Network without interfaces."
 msgstr ""
 
@@ -2035,6 +2105,9 @@ msgstr ""
 msgid "No information available"
 msgstr ""
 
+msgid "No matching prefix delegation"
+msgstr ""
+
 msgid "No negative cache"
 msgstr ""
 
@@ -2051,6 +2124,9 @@ msgid "No password set!"
 msgstr ""
 
 msgid "No rules in this chain"
+msgstr ""
+
+msgid "No scan results available yet..."
 msgstr ""
 
 msgid "No zone assigned"
@@ -2181,6 +2257,9 @@ msgstr ""
 msgid "Optional. Create routes for Allowed IPs for this peer."
 msgstr ""
 
+msgid "Optional. Description of peer."
+msgstr ""
+
 msgid ""
 "Optional. Host of peer. Names are resolved prior to bringing up the "
 "interface."
@@ -2257,6 +2336,9 @@ msgid "PID"
 msgstr ""
 
 msgid "PIN"
+msgstr ""
+
+msgid "PIN code rejected"
 msgstr ""
 
 msgid "PMK R1 Push"
@@ -2346,6 +2428,9 @@ msgstr ""
 msgid "Peer IP address to assign"
 msgstr ""
 
+msgid "Peer address is missing"
+msgstr ""
+
 msgid "Peers"
 msgstr ""
 
@@ -2414,9 +2499,6 @@ msgstr ""
 msgid "Prevents client-to-client communication"
 msgstr ""
 
-msgid "Prism2/2.5/3 802.11b Wireless Controller"
-msgstr ""
-
 msgid "Private Key"
 msgstr ""
 
@@ -2465,6 +2547,11 @@ msgstr ""
 msgid "Quality"
 msgstr ""
 
+msgid ""
+"Query all available upstream <abbr title=\"Domain Name System\">DNS</abbr> "
+"servers"
+msgstr ""
+
 msgid "R0 Key Lifetime"
 msgstr ""
 
@@ -2481,9 +2568,6 @@ msgid "RX"
 msgstr ""
 
 msgid "RX Rate"
-msgstr ""
-
-msgid "RaLink 802.11%s Wireless Controller"
 msgstr ""
 
 msgid "Radius-Accounting-Port"
@@ -2504,32 +2588,25 @@ msgstr ""
 msgid "Radius-Authentication-Server"
 msgstr ""
 
+msgid "Raw hex-encoded bytes. Leave empty unless your ISP require this"
+msgstr ""
+
 msgid ""
 "Read <code>/etc/ethers</code> to configure the <abbr title=\"Dynamic Host "
 "Configuration Protocol\">DHCP</abbr>-Server"
 msgstr ""
 
 msgid ""
-"Really delete this interface? The deletion cannot be undone!\\nYou might "
-"lose access to this device if you are connected via this interface."
+"Really delete this interface? The deletion cannot be undone! You might lose "
+"access to this device if you are connected via this interface"
 msgstr ""
 
 msgid ""
-"Really delete this wireless network? The deletion cannot be undone!\\nYou "
+"Really delete this wireless network? The deletion cannot be undone! You "
 "might lose access to this device if you are connected via this network."
 msgstr ""
 
 msgid "Really reset all changes?"
-msgstr ""
-
-msgid ""
-"Really shut down network?\\nYou might lose access to this device if you are "
-"connected via this interface."
-msgstr ""
-
-msgid ""
-"Really shutdown interface \"%s\" ?\\nYou might lose access to this device if "
-"you are connected via this interface."
 msgstr ""
 
 msgid "Really switch protocol?"
@@ -2575,9 +2652,6 @@ msgid "Recommended. IP addresses of the WireGuard interface."
 msgstr ""
 
 msgid "Reconnect this interface"
-msgstr ""
-
-msgid "Reconnecting interface"
 msgstr ""
 
 msgid "References"
@@ -2668,6 +2742,12 @@ msgstr ""
 msgid "Restart Firewall"
 msgstr ""
 
+msgid "Restart radio interface"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
 msgid "Restore backup"
 msgstr ""
 
@@ -2754,6 +2834,9 @@ msgstr ""
 msgid "Scan"
 msgstr ""
 
+msgid "Scan request failed"
+msgstr ""
+
 msgid "Scheduled Tasks"
 msgstr ""
 
@@ -2794,6 +2877,12 @@ msgstr ""
 msgid "Set up Time Synchronization"
 msgstr ""
 
+msgid "Setting PLMN failed"
+msgstr ""
+
+msgid "Setting operation mode failed"
+msgstr ""
+
 msgid "Setup DHCP Server"
 msgstr ""
 
@@ -2803,13 +2892,13 @@ msgstr ""
 msgid "Short GI"
 msgstr ""
 
+msgid "Short Preamble"
+msgstr ""
+
 msgid "Show current backup file list"
 msgstr ""
 
 msgid "Shutdown this interface"
-msgstr ""
-
-msgid "Shutdown this network"
 msgstr ""
 
 msgid "Signal"
@@ -2863,9 +2952,6 @@ msgid ""
 "instructions."
 msgstr ""
 
-msgid "Sort"
-msgstr ""
-
 msgid "Source"
 msgstr ""
 
@@ -2908,6 +2994,9 @@ msgid "Start priority"
 msgstr ""
 
 msgid "Starting configuration apply…"
+msgstr ""
+
+msgid "Starting wireless scan..."
 msgstr ""
 
 msgid "Startup"
@@ -3054,6 +3143,9 @@ msgstr ""
 msgid ""
 "The allowed characters are: <code>A-Z</code>, <code>a-z</code>, <code>0-9</"
 "code> and <code>_</code>"
+msgstr ""
+
+msgid "The backup archive does not appear to be a valid gzip file."
 msgstr ""
 
 msgid "The configuration file could not be loaded due to the following error:"
@@ -3236,7 +3328,8 @@ msgstr ""
 
 msgid ""
 "To restore configuration files, you can upload a previously generated backup "
-"archive here."
+"archive here. To reset the firmware to its initial state, click \"Perform "
+"reset\" (only possible with squashfs images)."
 msgstr ""
 
 msgid "Tone"
@@ -3305,7 +3398,25 @@ msgstr ""
 msgid "UUID"
 msgstr ""
 
+msgid "Unable to determine device name"
+msgstr ""
+
+msgid "Unable to determine external IP address"
+msgstr ""
+
+msgid "Unable to determine upstream interface"
+msgstr ""
+
 msgid "Unable to dispatch"
+msgstr ""
+
+msgid "Unable to obtain client ID"
+msgstr ""
+
+msgid "Unable to resolve AFTR host name"
+msgstr ""
+
+msgid "Unable to resolve peer host name"
 msgstr ""
 
 msgid "Unavailable Seconds (UAS)"
@@ -3317,6 +3428,9 @@ msgstr ""
 msgid "Unknown Error, password not changed!"
 msgstr ""
 
+msgid "Unknown error (%s)"
+msgstr ""
+
 msgid "Unmanaged"
 msgstr ""
 
@@ -3326,7 +3440,16 @@ msgstr ""
 msgid "Unsaved Changes"
 msgstr ""
 
+msgid "Unsupported MAP type"
+msgstr ""
+
+msgid "Unsupported modem"
+msgstr ""
+
 msgid "Unsupported protocol type."
+msgstr ""
+
+msgid "Up"
 msgstr ""
 
 msgid "Update lists"
@@ -3459,6 +3582,9 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
+msgid "Virtual dynamic interface"
+msgstr ""
+
 msgid "WDS"
 msgstr ""
 
@@ -3526,7 +3652,10 @@ msgstr ""
 msgid "Wireless Security"
 msgstr ""
 
-msgid "Wireless is disabled or not associated"
+msgid "Wireless is disabled"
+msgstr ""
+
+msgid "Wireless is not associated"
 msgstr ""
 
 msgid "Wireless is restarting..."
@@ -3536,12 +3665,6 @@ msgid "Wireless network is disabled"
 msgstr ""
 
 msgid "Wireless network is enabled"
-msgstr ""
-
-msgid "Wireless restarted"
-msgstr ""
-
-msgid "Wireless shut down"
 msgstr ""
 
 msgid "Write received DNS requests to syslog"
@@ -3576,6 +3699,9 @@ msgid "baseT"
 msgstr ""
 
 msgid "bridged"
+msgstr ""
+
+msgid "create"
 msgstr ""
 
 msgid "create:"
@@ -3613,9 +3739,6 @@ msgstr ""
 msgid "half-duplex"
 msgstr ""
 
-msgid "help"
-msgstr ""
-
 msgid "hidden"
 msgstr ""
 
@@ -3643,6 +3766,9 @@ msgstr ""
 msgid "minutes"
 msgstr ""
 
+msgid "mixed WPA/WPA2"
+msgstr ""
+
 msgid "no"
 msgstr ""
 
@@ -3662,6 +3788,9 @@ msgid "on"
 msgstr ""
 
 msgid "open"
+msgstr ""
+
+msgid "output"
 msgstr ""
 
 msgid "overlay"
